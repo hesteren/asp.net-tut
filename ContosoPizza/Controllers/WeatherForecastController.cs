@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ContosoPizza.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("[controller]")] // https://localhost:{PORT}/weatherforecast
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
